@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>try{var t=localStorage.getItem("lumina-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+  <title>Lumina — Platform Analitik Premium untuk Bisnis Modern</title>
+  <meta name="description" content="Lumina menyatukan seluruh data bisnismu dalam satu dashboard premium: analitik realtime, insight AI, dan laporan siap pakai." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./pages.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <nav class="lp-nav">
+    <a class="brand" href="./landing.html">
+      <div class="brand-logo">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2L21 7v10l-9 5-9-5V7l9-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M12 7v10M7.5 9.5l9 5M16.5 9.5l-9 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <span class="brand-name">Lumina</span>
+        <span class="brand-tag">Analytics Suite</span>
+      </div>
+    </a>
+
+    <div class="lp-links">
+      <a href="#fitur">Fitur</a>
+      <a href="#harga">Harga</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#cta">Kontak</a>
+    </div>
+
+    <div class="lp-nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Ganti tema terang/gelap" aria-pressed="false">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+      <a class="btn btn-ghost-link" href="./login.html">Masuk</a>
+      <a class="btn btn-primary" href="./login.html">Coba Gratis</a>
+      <button class="icon-btn lp-burger" id="lpBurger" aria-label="Buka menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="lp-mobile" id="lpMobileMenu">
+    <a href="#fitur">Fitur</a>
+    <a href="#harga">Harga</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#cta">Kontak</a>
+    <a href="./login.html">Masuk</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="lp-hero">
+    <div class="lp-orb o1"></div>
+    <div class="lp-orb o2"></div>
+
+    <div class="lp-hero-copy">
+      <span class="lp-badge"><i></i> Baru — Insight AI untuk prediksi pendapatan</span>
+      <h1>Semua data bisnismu,<br /><span class="grad-text">dalam satu cakrawala.</span></h1>
+      <p class="lead">
+        Lumina mengubah angka mentah menjadi keputusan cerdas. Pantau pendapatan,
+        pelanggan, dan kampanye secara realtime — dengan tampilan yang benar-benar premium.
+      </p>
+
+      <div class="lp-cta-row">
+        <a class="btn btn-primary" href="./login.html">
+          Mulai Gratis 14 Hari
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn btn-outline" href="./index.html">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 5.5v13l11-6.5-11-6.5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          Lihat Dashboard Demo
+        </a>
+      </div>
+
+      <div class="lp-proof">
+        <div class="lp-proof-avatars">
+          <div class="avatar" style="background:linear-gradient(135deg,#0ea5e9,#22d3ee)">NP</div>
+          <div class="avatar" style="background:linear-gradient(135deg,#38bdf8,#2563eb)">RM</div>
+          <div class="avatar" style="background:linear-gradient(135deg,#22d3ee,#0ea5e9)">SA</div>
+          <div class="avatar" style="background:linear-gradient(135deg,#2563eb,#38bdf8)">BW</div>
+        </div>
+        <div class="lp-proof-text">
+          <strong>2.400+ bisnis</strong> mempercayai Lumina<br />
+          <span class="lp-stars">★★★★★</span> <span>4,9/5 dari 1.100+ ulasan</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mock dashboard -->
+    <div class="lp-visual">
+      <div class="lp-mock">
+        <div class="lp-mock-head">
+          <span class="lp-mock-title">Ringkasan Mingguan</span>
+          <div class="lp-dots"><i></i><i></i><i></i></div>
+        </div>
+        <div class="lp-mock-kpis">
+          <div class="lp-mock-kpi"><b>Rp3,4 M</b><span>Pendapatan</span> <em>+18,2%</em></div>
+          <div class="lp-mock-kpi"><b>5.470</b><span>Pesanan</span> <em>+9,8%</em></div>
+          <div class="lp-mock-kpi"><b>5,2%</b><span>Konversi</span> <em>+1,4%</em></div>
+        </div>
+        <div class="lp-mock-chart" aria-hidden="true">
+          <i style="height:42%"></i><i style="height:58%"></i><i style="height:47%"></i>
+          <i style="height:71%"></i><i style="height:63%"></i><i style="height:84%"></i>
+          <i style="height:76%"></i><i style="height:95%"></i>
+        </div>
+      </div>
+
+      <div class="lp-float f1">
+        <span class="fi" style="background:rgba(52,211,153,.15);color:#34d399">▲</span>
+        Konversi +24% bulan ini
+      </div>
+      <div class="lp-float f2">
+        <span class="fi" style="background:rgba(56,189,248,.15);color:#38bdf8">⚡</span>
+        Data realtime &lt; 1 detik
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ LOGO STRIP ============ -->
+  <section class="lp-logos" aria-label="Dipercaya oleh">
+    <span>NUSAPAY</span><span>ORBITLAB</span><span>KIRANA</span><span>SENTRA</span><span>VIREO</span><span>BUMANTARA</span>
+  </section>
+
+  <!-- ============ FITUR ============ -->
+  <section class="lp-section" id="fitur">
+    <div class="lp-section-head lp-reveal">
+      <span class="lp-eyebrow">Fitur Unggulan</span>
+      <h2>Segala yang dibutuhkan tim modern</h2>
+      <p>Dari tracking realtime hingga laporan AI — semuanya rapi, cepat, dan enak dilihat.</p>
+    </div>
+
+    <div class="lp-features">
+      <article class="lp-feature lp-reveal" style="--d:0ms">
+        <div class="kpi-icon" style="--kpi-color:#38bdf8;--kpi-bg:rgba(56,189,248,.14)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V5m0 14h16M8 15l3.5-4 2.5 2.5L19 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Analitik Realtime</h3>
+        <p>Semua metrik penting terbarui kurang dari satu detik. Tidak perlu refresh, tidak perlu nunggu laporan.</p>
+      </article>
+
+      <article class="lp-feature lp-reveal" style="--d:80ms">
+        <div class="kpi-icon" style="--kpi-color:#22d3ee;--kpi-bg:rgba(34,211,238,.14)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l1.9 4.4L18 9.3l-4.1 1.9L12 15.6l-1.9-4.4L6 9.3l4.1-1.9L12 3zM18.5 15l.9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Insight AI</h3>
+        <p>Prediksi pendapatan, deteksi anomali, dan rekomendasi otomatis — seperti punya analis pribadi 24/7.</p>
+      </article>
+
+      <article class="lp-feature lp-reveal" style="--d:160ms">
+        <div class="kpi-icon" style="--kpi-color:#60a5fa;--kpi-bg:rgba(96,165,250,.14)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 8l8-4 8 4-8 4-8-4zm0 0v8l8 4 8-4V8" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Multi-Kanal</h3>
+        <p>Satukan marketplace, toko online, dan offline dalam satu sumber kebenaran yang konsisten.</p>
+      </article>
+
+      <article class="lp-feature lp-reveal" style="--d:0ms">
+        <div class="kpi-icon" style="--kpi-color:#34d399;--kpi-bg:rgba(52,211,153,.13)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.5 12l1.8 1.8 3.4-3.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Keamanan Enterprise</h3>
+        <p>Enkripsi end-to-end, SSO, audit log, dan kepatuhan GDPR — data kamu dijaga standar bank.</p>
+      </article>
+
+      <article class="lp-feature lp-reveal" style="--d:80ms">
+        <div class="kpi-icon" style="--kpi-color:#fbbf24;--kpi-bg:rgba(251,191,36,.14)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 3v4M15 3v4M5 11h14M7 7h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>40+ Integrasi</h3>
+        <p>Hubungkan Stripe, Shopify, Google Ads, Slack, dan lainnya — siap pakai tanpa satu baris kode pun.</p>
+      </article>
+
+      <article class="lp-feature lp-reveal" style="--d:160ms">
+        <div class="kpi-icon" style="--kpi-color:#f87171;--kpi-bg:rgba(248,113,113,.13)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm7.5.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM2.5 20a6.5 6.5 0 0 1 13 0M15 14.5c2.8.3 5 1.8 5.8 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Kolaborasi Tim</h3>
+        <p>Bagikan dashboard, beri komentar langsung di metrik, dan tetapkan akses per peran dengan mudah.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="lp-section" style="padding-top:0">
+    <div class="lp-stats lp-reveal">
+      <div class="lp-stat"><b>2.400+</b><span>Bisnis aktif</span></div>
+      <div class="lp-stat"><b>40+</b><span>Integrasi siap pakai</span></div>
+      <div class="lp-stat"><b>99,9%</b><span>Uptime dijamin</span></div>
+      <div class="lp-stat"><b>4,9★</b><span>Rating pelanggan</span></div>
+    </div>
+  </section>
+
+  <!-- ============ HARGA ============ -->
+  <section class="lp-section" id="harga">
+    <div class="lp-section-head lp-reveal">
+      <span class="lp-eyebrow">Harga</span>
+      <h2>Transparan, tanpa biaya tersembunyi</h2>
+      <p>Mulai gratis, berkembang saat bisnismu siap. Batal kapan saja.</p>
+    </div>
+
+    <div class="lp-pricing">
+      <article class="lp-plan lp-reveal" style="--d:0ms">
+        <h3>Starter</h3>
+        <p class="lp-plan-desc">Untuk usaha yang baru merintis.</p>
+        <div class="lp-price"><b>Rp0</b> <span>/ bulan</span></div>
+        <ul>
+          <li>1 proyek dashboard</li>
+          <li>Riwayat data 7 hari</li>
+          <li>3 integrasi dasar</li>
+          <li>Dukungan komunitas</li>
+        </ul>
+        <a class="btn btn-outline btn-block" href="./login.html">Mulai Gratis</a>
+      </article>
+
+      <article class="lp-plan featured lp-reveal" style="--d:90ms">
+        <span class="lp-plan-tag">Paling Populer</span>
+        <h3>Pro</h3>
+        <p class="lp-plan-desc">Untuk tim yang sedang bertumbuh.</p>
+        <div class="lp-price"><b>Rp499rb</b> <span>/ bulan</span></div>
+        <ul>
+          <li>Proyek tanpa batas</li>
+          <li>Riwayat data 24 bulan</li>
+          <li>Insight AI & prediksi</li>
+          <li>40+ integrasi penuh</li>
+          <li>Prioritas support 24/7</li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="./login.html">Coba 14 Hari Gratis</a>
+      </article>
+
+      <article class="lp-plan lp-reveal" style="--d:180ms">
+        <h3>Enterprise</h3>
+        <p class="lp-plan-desc">Untuk organisasi berskala besar.</p>
+        <div class="lp-price"><b>Custom</b></div>
+        <ul>
+          <li>Semua fitur Pro</li>
+          <li>SSO & audit log lengkap</li>
+          <li>SLA 99,9% kontrak</li>
+          <li>Customer success khusus</li>
+        </ul>
+        <a class="btn btn-outline btn-block" href="#cta">Hubungi Kami</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONI ============ -->
+  <section class="lp-section" id="testimoni" style="padding-top:0">
+    <div class="lp-section-head lp-reveal">
+      <span class="lp-eyebrow">Testimoni</span>
+      <h2>Dipercaya oleh tim terbaik</h2>
+      <p>Cerita singkat dari mereka yang sudah merasakan bedanya.</p>
+    </div>
+
+    <div class="lp-quotes">
+      <figure class="lp-quote lp-reveal" style="--d:0ms">
+        <div class="lp-quote-stars">★★★★★</div>
+        <blockquote>
+          <p>“Sejak pakai Lumina, rapat mingguan kami cuma 20 menit. Semua metrik sudah tergaris rapi
+          di satu layar — keputusan jauh lebih cepat.”</p>
+        </blockquote>
+        <figcaption class="lp-quote-who">
+          <div class="avatar" style="background:linear-gradient(135deg,#0ea5e9,#22d3ee)">NP</div>
+          <div><b>Nadia Prameswari</b><span>Head of Growth, Orbitlab</span></div>
+        </figcaption>
+      </figure>
+
+      <figure class="lp-quote lp-reveal" style="--d:90ms">
+        <div class="lp-quote-stars">★★★★★</div>
+        <blockquote>
+          <p>“Tampilannya premium, tim langsung betah. Fitur prediksi AI-nya membantu kami
+          mengantisipasi penjualan naik 3 minggu sebelumnya.”</p>
+        </blockquote>
+        <figcaption class="lp-quote-who">
+          <div class="avatar" style="background:linear-gradient(135deg,#2563eb,#38bdf8)">RM</div>
+          <div><b>Rizky Mahendra</b><span>Founder, Kirana Store</span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="lp-section" id="cta" style="padding-top:0">
+    <div class="lp-cta-box lp-reveal">
+      <h2>Siap melihat bisnismu lebih terang?</h2>
+      <p>Daftar gratis dalam 30 detik — tanpa kartu kredit, langsung menuju dashboard premium.</p>
+      <a class="btn btn-primary" href="./login.html">
+        Mulai Sekarang
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="lp-footer">
+    <div class="lp-footer-grid">
+      <div class="lp-footer-about">
+        <a class="brand" href="./landing.html">
+          <div class="brand-logo">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 2L21 7v10l-9 5-9-5V7l9-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M12 7v10M7.5 9.5l9 5M16.5 9.5l-9 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">Lumina</span>
+            <span class="brand-tag">Analytics Suite</span>
+          </div>
+        </a>
+        <p>Platform analitik premium yang mengubah data mentah menjadi keputusan bisnis yang lebih terang.</p>
+      </div>
+
+      <div>
+        <h5>Produk</h5>
+        <ul>
+          <li><a href="#fitur">Fitur</a></li>
+          <li><a href="#harga">Harga</a></li>
+          <li><a href="./index.html">Dashboard Demo</a></li>
+          <li><a href="./login.html">Masuk</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Perusahaan</h5>
+        <ul>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Karier</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Dukungan</h5>
+        <ul>
+          <li><a href="#">Pusat Bantuan</a></li>
+          <li><a href="#">Status Layanan</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+          <li><a href="#">Syarat & Ketentuan</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lp-copy">
+      <span>© 2026 Lumina Analytics. Seluruh hak cipta dilindungi.</span>
+      <span>Dibuat dengan Codebuff 🤖</span>
+    </div>
+  </footer>
+
+  <script src="./pages.js"></script>
+</body>
+</html>

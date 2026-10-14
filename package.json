@@ -1,0 +1,14 @@
+{
+  "name": "lumina-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard analitik premium — vanilla HTML/CSS/JS, zero-dependency.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
